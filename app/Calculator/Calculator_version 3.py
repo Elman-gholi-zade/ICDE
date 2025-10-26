@@ -1,4 +1,7 @@
-
+# تابع بخش مخفی
+def hide() :
+    print()
+    print("Hello   !!!")
 
 
 
@@ -26,9 +29,9 @@ while True :
         print( )
         # بخش عملیات جمع
         if operations == "+" :
-            num_1 = int(input("Enter number one : "))
+            num_1 = float(input("Enter number one : "))
             print( )
-            num_2 = int(input("Enter number two :  "))
+            num_2 = float(input("Enter number two :  "))
             print( )
             addition = num_1 + num_2
             print("-------------------------")
@@ -40,9 +43,9 @@ while True :
 
         # بخش عملیات تفریق
         elif operations == "-" :
-            num_1 = int(input("Enter number one : "))
+            num_1 = float(input("Enter number one : "))
             print( )
-            num_2 = int(input("Enter number two :  "))
+            num_2 = float(input("Enter number two :  "))
             print( )
             subtraction = num_1 - num_2
             print("-------------------------")
@@ -54,9 +57,9 @@ while True :
         
         # بخش عملیات ضرب
         elif operations == "*" :
-            num_1 = int(input("Enter number one : "))
+            num_1 = float(input("Enter number one : "))
             print( )
-            num_2 = int(input("Enter number two :  "))
+            num_2 = float(input("Enter number two :  "))
             print( )
             multiplication = num_1 * num_2
             print("-------------------------")
@@ -67,9 +70,9 @@ while True :
 
         # بخش عملیات تقسیم
         elif operations == "/" :
-            num_1 = int(input("Enter number one : "))
+            num_1 = float(input("Enter number one : "))
             print( )
-            num_2 = int(input("Enter number two :  "))
+            num_2 = float(input("Enter number two :  "))
             print( )
             division = num_1 / num_2
             print("-------------------------")
@@ -77,6 +80,12 @@ while True :
             print("-------------------------")
             print(" ")
             print(" ")
+
+
+       # بخش مخفی
+        elif operations == "0914" :
+            hide()
+
 
         # پیغام داشتن مشکل
         else :
